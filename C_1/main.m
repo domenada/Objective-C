@@ -42,8 +42,10 @@ int main(int argc, char * argv[]) {
     @autoreleasepool {
         
    
-        
-        
+         int c = plus(10, 15);
+               
+               NSLog(@"%i", c);
+
         
       
 //        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
